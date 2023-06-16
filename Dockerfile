@@ -28,10 +28,10 @@ RUN set -x \
 ENTRYPOINT ["/srv/stunnel.sh"]
 CMD ["stunnel"]
 
-LABEL org.label-schema.name="dweomer/stunnel" \
-      org.label-schema.description="Stunnel on Alpine" \
-      org.label-schema.url="https://github.com/dweomer/dockerfiles-stunnel/" \
-      org.label-schema.usage="https://github.com/dweomer/dockerfiles-stunnel/blob/master/README.md" \
-      org.label-schema.vcs-url="https://github.com/dweomer/dockerfiles-stunnel/" \
-      org.label-schema.vendor="Jacob Blain Christen - mailto:dweomer5@gmail.com, https://github.com/dweomer, https://twitter.com/dweomer" \
+LABEL org.label-schema.name="stunnel-client" \
+      org.label-schema.description="Stunnel client on Alpine" \
+      org.label-schema.url="https://github.com/dfarre-vunkers/stunnel-client/" \
+      org.label-schema.usage="https://github.com/dfarre-vunkers/stunnel-client/blob/master/README.md" \
+      org.label-schema.vcs-url="https://github.com/dfarre-vunkers/stunnel-client/" \
+      org.label-schema.vendor="David Farré - mailto:dfarre@vunkers.com, https://github.com/dfarre-vunkers" \
       org.label-schema.schema-version="1.0"
