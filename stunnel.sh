@@ -7,6 +7,7 @@ export STUNNEL_GID="${STUNNEL_GID:-stunnel}"
 export STUNNEL_KEY="${STUNNEL_KEY:-/etc/stunnel/stunel.key}"
 export STUNNEL_CRT="${STUNNEL_CRT:-/etc/stunnel/stunnel.pem}"
 export STUNNEL_DELAY="${STUNNEL_DELAY:-no}"
+export STUNNEL_CLIENT="${STUNNEL_CLIENT:-yes}"
 
 if [[ -z "${STUNNEL_SERVICE}" ]] || [[ -z "${STUNNEL_ACCEPT}" ]] || [[ -z "${STUNNEL_CONNECT}" ]]; then
     echo >&2 "one or more STUNNEL_SERVICE* values missing: "
