@@ -16,7 +16,7 @@ RUN set -x \
         gettext \
  && apk --no-network info openssl \
  && apk --no-network info stunnel
-COPY *.template openssl.cnf /srv/stunnel/
+COPY *.template /srv/stunnel/
 COPY stunnel.sh /srv/
 
 RUN set -x \
